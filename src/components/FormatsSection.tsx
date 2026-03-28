@@ -3,10 +3,7 @@ import { Store, Building2, LayoutGrid, MapPin } from "lucide-react";
 import storeImg from "@/assets/store-interior.jpg";
 
 const formats = [
-  { icon: Store, title: "Loja de rua", desc: "Presença direta no fluxo da cidade, com identidade visual de destaque." },
-  { icon: Building2, title: "Loja em shopping", desc: "Localização premium com alto fluxo e visibilidade para a marca." },
-  { icon: LayoutGrid, title: "Quiosque ou formato compacto", desc: "Modelo enxuto para praças estratégicas e investimento otimizado." },
-  { icon: MapPin, title: "Modelo adaptado à praça", desc: "Formato flexível, ajustado ao potencial e à realidade da região." },
+  { icon: Store, title: "Loja de rua", desc: "Ponto comercial com fachada própria, presença direta no fluxo da cidade e identidade visual de alto impacto." },
 ];
 
 const FormatsSection = () => (
