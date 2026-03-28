@@ -7,6 +7,7 @@ import TargetProfileSection from "@/components/TargetProfileSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import FormatsSection from "@/components/FormatsSection";
 import BenefitsSection from "@/components/BenefitsSection";
+import InvestmentSection from "@/components/InvestmentSection";
 import LeadFormSection from "@/components/LeadFormSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FinalCtaSection from "@/components/FinalCtaSection";
