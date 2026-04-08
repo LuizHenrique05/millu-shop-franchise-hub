@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import brandImg from "@/assets/brand-eyewear.jpg";
 
 const AboutSection = () => (
-  <section id="sobre" className="py-24 md:py-32">
+  <section id="sobre" className="py-16 md:py-20">
     <div className="container">
       <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <motion.div

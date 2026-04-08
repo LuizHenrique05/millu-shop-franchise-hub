@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { TrendingUp, RotateCcw, Globe, BarChart3, Clock, Wrench, Package } from "lucide-react";
+import { TrendingUp, RotateCcw, Globe, BarChart3, Clock, Wrench, Package, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const highlights = [
   { num: 1, icon: TrendingUp, text: "Fature com uma ótica de marca própria" },
@@ -19,13 +20,13 @@ const specs = [
 ];
 
 const InvestmentSection = () => (
-  <section id="investimento" className="py-24 md:py-32 bg-muted/50">
+  <section id="investimento" className="py-16 md:py-20 bg-muted/50">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center max-w-2xl mx-auto mb-16"
+        className="text-center max-w-2xl mx-auto mb-10"
       >
         <span className="text-sm font-medium text-secondary uppercase tracking-widest">Investimento</span>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-3 mb-5">
@@ -88,6 +89,21 @@ const InvestmentSection = () => (
           </motion.div>
         ))}
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="text-center mt-10"
+      >
+        <Button
+          size="lg"
+          onClick={() => document.querySelector("#formulario")?.scrollIntoView({ behavior: "smooth" })}
+          className="gradient-primary text-primary-foreground hover:opacity-90 rounded-full px-8 h-12 text-base shadow-elegant"
+        >
+          Solicitar informações <ArrowRight size={18} className="ml-1" />
+        </Button>
+      </motion.div>
     </div>
   </section>
 );

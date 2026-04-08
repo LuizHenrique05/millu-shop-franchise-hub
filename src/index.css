@@ -66,7 +66,13 @@
 
 @layer utilities {
   .gradient-primary {
-    background: linear-gradient(135deg, hsl(340, 72%, 57%), hsl(340, 72%, 45%));
+    background: linear-gradient(135deg, hsl(340, 72%, 57%), hsl(340, 72%, 42%));
+  }
+  .bg-section-rosa {
+    background: linear-gradient(135deg, hsl(340, 72%, 95%), hsl(340, 40%, 92%));
+  }
+  .bg-section-dourado {
+    background: linear-gradient(135deg, hsl(33, 60%, 95%), hsl(33, 50%, 90%));
   }
   .gradient-warm {
     background: linear-gradient(135deg, hsl(340, 72%, 57%), hsl(33, 85%, 67%));
