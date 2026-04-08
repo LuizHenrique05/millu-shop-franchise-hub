@@ -29,7 +29,7 @@ const steps = [
 ];
 
 const HowItWorksSection = () => (
-  <section id="como-funciona" className="py-24 md:py-32 bg-muted/50">
+  <section id="como-funciona" className="py-16 md:py-20 bg-muted/50">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

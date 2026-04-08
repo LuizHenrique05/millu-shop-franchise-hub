@@ -25,7 +25,7 @@ const cards = [
 ];
 
 const MarketSection = () => (
-  <section id="mercado" className="py-24 md:py-32 gradient-soft">
+  <section id="mercado" className="py-16 md:py-20 bg-section-dourado">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
