@@ -19,7 +19,7 @@ const specs = [
 ];
 
 const InvestmentSection = () => (
-  <section id="investimento" className="py-24 md:py-32 bg-muted/50">
+  <section id="investimento" className="py-16 md:py-20 bg-muted/50">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
