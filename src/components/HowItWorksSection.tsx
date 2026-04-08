@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ClipboardList, Phone, UserCheck, Presentation } from "lucide-react";
+import { ClipboardList, Phone, UserCheck, Presentation, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const steps = [
   {
