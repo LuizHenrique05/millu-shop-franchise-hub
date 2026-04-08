@@ -71,6 +71,21 @@ const HowItWorksSection = () => (
           </motion.div>
         ))}
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="text-center mt-10"
+      >
+        <Button
+          size="lg"
+          onClick={() => document.querySelector("#formulario")?.scrollIntoView({ behavior: "smooth" })}
+          className="gradient-primary text-primary-foreground hover:opacity-90 rounded-full px-8 h-12 text-base shadow-elegant"
+        >
+          Quero receber informações <ArrowRight size={18} className="ml-1" />
+        </Button>
+      </motion.div>
     </div>
   </section>
 );

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { TrendingUp, RotateCcw, Globe, BarChart3, Clock, Wrench, Package } from "lucide-react";
+import { TrendingUp, RotateCcw, Globe, BarChart3, Clock, Wrench, Package, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const highlights = [
   { num: 1, icon: TrendingUp, text: "Fature com uma ótica de marca própria" },

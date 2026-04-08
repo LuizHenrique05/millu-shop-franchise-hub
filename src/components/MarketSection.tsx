@@ -31,7 +31,7 @@ const MarketSection = () => (
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-center max-w-2xl mx-auto mb-16"
+        className="text-center max-w-2xl mx-auto mb-10"
       >
         <span className="text-sm font-medium text-secondary uppercase tracking-widest">Oportunidade</span>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-3 mb-5">

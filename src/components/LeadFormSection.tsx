@@ -29,7 +29,7 @@ const LeadFormSection = () => {
   };
 
   return (
-    <section id="formulario" className="py-24 md:py-32 relative overflow-hidden">
+    <section id="formulario" className="py-16 md:py-20 relative overflow-hidden">
       <div className="absolute inset-0 gradient-primary opacity-[0.04]" />
       <div className="container relative z-10">
         <div className="max-w-3xl mx-auto">

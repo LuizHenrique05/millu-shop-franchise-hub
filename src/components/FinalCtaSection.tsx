@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const FinalCtaSection = () => (
-  <section className="py-24 md:py-32 relative overflow-hidden">
+  <section className="py-16 md:py-20 relative overflow-hidden">
     <div className="absolute inset-0 gradient-primary opacity-100" />
     <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.15),transparent)]" />
     

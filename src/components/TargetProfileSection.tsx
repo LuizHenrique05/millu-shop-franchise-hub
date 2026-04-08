@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Check } from "lucide-react";
+import { Check, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const profiles = [
   "Empreendedores que querem investir em uma marca com apelo visual forte e identidade reconhecível",
@@ -10,8 +11,12 @@ const profiles = [
   "Pessoas que acreditam no poder de uma marca forte para diferenciação local",
 ];
 
+const scrollTo = (id: string) => {
+  document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
+};
+
 const TargetProfileSection = () => (
-  <section className="py-24 md:py-32">
+  <section className="py-16 md:py-20 bg-section-rosa">
     <div className="container">
       <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <motion.div
@@ -27,6 +32,13 @@ const TargetProfileSection = () => (
           <p className="text-muted-foreground text-lg leading-relaxed">
             A franquia Millu Shop é para quem quer empreender com propósito, estilo e o respaldo de uma marca que sabe se conectar com o público.
           </p>
+          <Button
+            size="lg"
+            onClick={() => scrollTo("#formulario")}
+            className="gradient-primary text-primary-foreground hover:opacity-90 rounded-full px-8 h-12 text-base shadow-elegant"
+          >
+            Tenho interesse <ArrowRight size={18} className="ml-1" />
+          </Button>
         </motion.div>
 
         <motion.div
