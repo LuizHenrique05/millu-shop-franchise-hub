@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { TrendingUp, Eye, Sparkles } from "lucide-react";
+import { TrendingUp, Eye, Sparkles, Package } from "lucide-react";
 import heroImg from "@/assets/hero-woman.jpg";
 
 const badges = [
