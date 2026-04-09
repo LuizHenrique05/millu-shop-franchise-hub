@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Mail, Phone } from "lucide-react";
+import { Instagram, Facebook, Youtube, Mail, Phone } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-foreground text-primary-foreground py-16">
@@ -15,6 +15,9 @@ const Footer = () => (
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors">
               <Facebook size={18} />
+            </a>
+            <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors">
+              <Youtube size={18} />
             </a>
           </div>
         </div>
