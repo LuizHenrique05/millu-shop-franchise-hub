@@ -61,6 +61,18 @@ const HeroSection = () => {
               </Button>
             </div>
 
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.4 }}
+              className="flex items-center gap-3 px-5 py-3 rounded-2xl bg-secondary/15 border border-secondary/30 w-fit"
+            >
+              <Package size={20} className="text-secondary shrink-0" />
+              <p className="text-sm md:text-base font-semibold text-foreground">
+                <span className="text-secondary">Primeiro estoque incluso</span> — comece a faturar desde o dia 1
+              </p>
+            </motion.div>
+
             <div className="flex flex-wrap gap-3 pt-2">
               {badges.map((badge, i) => (
                 <motion.div
