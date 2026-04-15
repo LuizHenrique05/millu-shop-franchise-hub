@@ -24,6 +24,7 @@ const Index = () => (
     <TargetProfileSection />
     <HowItWorksSection />
     <FormatsSection />
+    <LocationsSection />
     <BenefitsSection />
     <InvestmentSection />
     <LeadFormSection />
